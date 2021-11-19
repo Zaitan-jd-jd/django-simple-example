@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrati</title>
+</head>
+<body>
+    <h1>Ultum</h1>
+    <h3>Registrati!</h3>
+    <form method="post">{% csrf_token %}
+        {{ username_form }}
+        <input type="submit" value="OK">
+    </form>
+</body>
+</html>
