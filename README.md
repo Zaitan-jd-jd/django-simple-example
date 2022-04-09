@@ -1,2 +1,2 @@
-# project
-Progetto Django!
+# django-simple-example
+A simple django project!
